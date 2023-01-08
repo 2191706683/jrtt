@@ -1,0 +1,22 @@
+/* components/jr-stick/jr-stick.wxss */
+.container {
+  padding: 15rpx 30rpx 18rpx 30rpx;
+  border-top: 2rpx solid #e4e6e6;
+}
+.item {
+  margin-bottom: 6rpx;
+}
+.title {
+  font-size: 12pt;
+}
+.description {
+  font-size: 7pt;
+}
+.description text {
+  margin-right: 15rpx;
+  color: #7e7b7b;
+}
+.description .up{
+  color:  #d81e06;
+}
+

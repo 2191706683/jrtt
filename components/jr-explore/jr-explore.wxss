@@ -1,0 +1,5 @@
+/* components/jr-explore/jr-explore.wxss */
+.item {
+  border-top: 12rpx solid #ececec;
+  padding: 30rpx 30rpx 0 30rpx;
+}
