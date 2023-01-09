@@ -1,0 +1,20 @@
+<!--components/jr-hot/jr-hot.wxml-->
+<view class="tab">
+  <van-tabs active="{{ active }}" type="card">
+    <van-tab wx:for="{{hot.hotTab}}" wx:key="index" title="{{item}}"></van-tab>
+  </van-tabs>
+</view>
+<view class="item">
+  <view class="top">
+    <image src="/images/icon/top.png" mode="widthFix" />
+    <text>{{hot.top}}</text>
+  </view>
+  <view class="content" wx:for="{{hot.hotList}}" wx:key="id">
+    <text class="id">{{item.id}}</text>
+    <text class="title">{{item.title}}</text>
+  </view>
+</view>
+<view class="pull">
+  <text>展开更多</text>
+  <image src="/images/icon/pull.png" mode="widthFix" />
+</view>
