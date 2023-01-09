@@ -1,0 +1,4 @@
+<!--pages/user/user.wxml-->
+<jr-user_head/>
+<jr-user_body gridList="{{gridList}}" />
+<jr-user_foot/>

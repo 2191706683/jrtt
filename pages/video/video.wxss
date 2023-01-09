@@ -1,0 +1,81 @@
+/* pages/video/video.wxss */
+.item {
+  border-top: 1rpx solid #ececec;
+  padding: 30rpx 30rpx 0 30rpx;
+}
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30rpx;
+}
+.photo {
+  border-radius: 50%;
+  margin-right: 15rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.description {
+  flex: 6;
+}
+.description .author{
+  font-size: 11pt;
+  font-weight: 500;
+}
+.aside {
+  display: flex;
+}
+.follow {
+  position: absolute;
+  right: 70rpx;
+  padding: 4rpx 24rpx;
+  font-size: 11pt;
+  border: 1px solid #ececec;
+}
+.more {
+  width: 50rpx;
+  height: 50rpx
+}
+.article {
+  line-height: 55rpx;
+  font-weight: 700;
+}
+.video {
+  margin-top: 10rpx;
+}
+.video video {
+  width: 100%;
+}
+.video image {
+  position: relative;
+  width: 100%;
+}
+.video image .label {
+  position: absolute;
+  bottom: 16rpx;
+  right: 16rpx;
+  font-size: 12pt;
+  padding: 4rpx 8rpx;
+  background: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 4rpx;
+}
+.foot {
+  margin-top: 25rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot view {
+  display: flex;
+  align-items: center;
+}
+.foot view text {
+  margin-left: 12rpx;
+  font-size: 9pt;
+}
+.foot image {
+  width: 35rpx;
+  height: 35rpx;
+}
