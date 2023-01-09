@@ -1,6 +1,0 @@
-<!--pages/user/childCpns/jr-user_foot/jr-user_foot.wxml-->
-<view class="page">
-  <image src="/images/icon/publish.png" mode=""/>
-  <view class="title">分享今天值得记录的瞬间</view>
-  <text class="publish">+ 发布</text>
-</view>
